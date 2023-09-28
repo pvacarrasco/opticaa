@@ -1,0 +1,179 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.head-logs{
+  display: flex;
+  margin: auto;
+  background-color: cadetblue;
+  padding: 0.66rem;
+  padding-right: 2rem;
+  padding-left: 1rem;
+  justify-content: flex-start;
+  margin: 0px;
+}
+#logs{
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  margin: auto 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1abc9c;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+footer {
+  background-color: #1abc9c;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: -webkit-fill-available;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #ff3333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #e60000;
+}
+
+/* Estilos para la sección de bienvenida */
+.bienvenida {
+  background-color: #f7f7f7; /* Color de fondo */
+  padding: 20px; /* Espaciado interno */
+  text-align: center; /* Alineación de texto al centro */
+}
+
+.bienvenida p {
+  font-size: 18px; /* Tamaño de fuente del texto */
+  color: #333; /* Color del texto */
+  margin-bottom: 20px; /* Espaciado inferior del párrafo */
+}
+
+.bienvenida img {
+  max-width: 100%; /* Imagen ajustada al ancho de su contenedor */
+  height: auto; /* Altura automática para mantener la proporción */
+  border: 2px solid #ddd; /* Borde alrededor de la imagen */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  margin-top: 20px; /* Espaciado superior de la imagen */
+}
+
+.webmaster {
+  background-color: #fff; /* Color de fondo */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  margin-top: 20px; /* Espaciado superior */
+  text-align: center; /* Alineación de texto al centro */
+}
+
+/* Estilos para el contenido dentro de la tarjeta */
+.webmaster .tarjeta {
+  margin-top: 20px; /* Espaciado superior de la tarjeta */
+}
+
+.webmaster .tarjeta p {
+  font-size: 18px; /* Tamaño de fuente del texto */
+  color: #333; /* Color del texto */
+  margin: 10px 0; /* Espaciado vertical */
+}
+
+.webmaster .tarjeta img {
+  max-width: 250px; /* Ancho máximo para la imagen */
+  height: auto; /* Altura automática para mantener la proporción */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
